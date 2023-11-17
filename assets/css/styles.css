@@ -200,7 +200,7 @@ img {
 
 .home__title {
   font-size: var(--big-font-size);
-  margin-bottom: var(--mb-5);
+  margin-bottom: var(--mb-4);
 }
 
 .home__title-color {
@@ -390,7 +390,7 @@ img {
 
 .footer__title {
   font-size: 2rem;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 5px;
 }
 
 .footer__social {
@@ -527,4 +527,24 @@ img {
   .home__img {
     width: 450px;
   }
+}
+
+.contact-icon-container{
+  text-align: center;
+}
+
+
+.contact-icon{
+  display: inline;
+  margin: 2px;
+  width: 45px;
+  align-content: center;
+  margin-bottom: 7px;
+  /* transition: 500ms; */
+}
+
+.contact-icon:hover{
+  width: 40px;
+  padding-bottom: 5px;
+  transition: 500ms;
 }
