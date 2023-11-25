@@ -412,12 +412,21 @@ img {
   .home {
     row-gap: 2rem;
   }
+ 
   .home__img {
-    width: 200px;
+    display: none;
+  }
+}
+@media screen and (max-width: 380px) {
+
+  
+  .home__img {
+    width: 160px;
   }
 }
 
 @media screen and (min-width: 576px) {
+
   .home {
     padding: 4rem 0 2rem;
   }
@@ -460,6 +469,7 @@ img {
 }
 
 @media screen and (min-width: 768px) {
+
   body {
     margin: 0;
   }
@@ -514,6 +524,8 @@ img {
     grid-template-columns: repeat(3, 1fr);
     column-gap: 2rem;
   }
+
+  
 }
 
 @media screen and (min-width: 992px) {
@@ -547,4 +559,22 @@ img {
   width: 40px;
   padding-bottom: 5px;
   transition: 500ms;
+}
+
+
+
+
+.description_list{
+  list-style: disc;
+} 
+
+.Project_Description{
+  margin: 5px 25px;
+}
+
+.report_image{
+  width: 95%;
+  margin: 10px auto;
+  border: black 2px solid;
+  border-radius: 5px;
 }
